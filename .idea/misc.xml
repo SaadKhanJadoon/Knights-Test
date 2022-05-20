@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_main.xml" value="0.17291666666666666" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_splash.xml" value="0.17291666666666666" />
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/native_ad_layout.xml" value="0.21354166666666666" />
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/native_ad_theme.xml" value="0.21354166666666666" />
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/themes_adapter.xml" value="0.21354166666666666" />
       </map>
     </option>
   </component>

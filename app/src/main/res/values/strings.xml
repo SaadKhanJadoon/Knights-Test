@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Test Application</string>
+
+    <!--    Ads Strings-->
+    <string name="title">title</string>
+    <string name="sub_title">sub Title</string>
+    <string name="ad_body_discription">Ad Body Description</string>
+    <string name="price">Price</string>
+    <string name="ad_store">ad Store</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="this_that">This That</string>
+    <string name="install_string">Install</string>
+    <string name="no_result_found">No result found</string>
+    <string name="sorry">Sorry!!</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_us">Rate Us</string>
 </resources>

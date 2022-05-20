@@ -17,6 +17,12 @@ android {
     }
 
     buildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            resValue "string", "application_id", "ca-app-pub-8697560128382282~6714422630"
+            resValue "string", "nativeAd_id", "ca-app-pub-3940256099942544/1044960115"
+        }
+
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -46,4 +52,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     //Splash Theme
     implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+    //Ads Library
+    implementation 'com.google.android.gms:play-services-ads:20.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
 }

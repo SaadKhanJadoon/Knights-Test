@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/TestApplication">
         <activity
+            android:name=".activities.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PostsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.SplashActivity"
             android:exported="true"
             android:theme="@style/splashTheme">
@@ -21,8 +27,7 @@
         </activity>
         <activity
             android:name=".activities.MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"

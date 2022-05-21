@@ -1,5 +1,6 @@
 package com.example.testapplication.activities
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mainBinding.root)
+        supportActionBar?.title = "Main Activity"
 
         imageList = arrayListOf()
         CoroutineScope(Dispatchers.Main).launch {
@@ -37,6 +39,13 @@ class MainActivity : AppCompatActivity() {
                 val themeAdapter = ImageAdapter(this@MainActivity, imageList)
                 imageRecyclerView.setHasFixedSize(true)
                 imageRecyclerView.adapter = themeAdapter
+            }
+        }
+
+        binding?.apply {
+            postActivity.setOnClickListener {
+                val mainIntent = Intent(this@MainActivity, PostsActivity::class.java)
+                startActivity(mainIntent)
             }
         }
     }

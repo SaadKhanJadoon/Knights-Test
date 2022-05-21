@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_comment.xml" value="0.19375" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_main.xml" value="0.17291666666666666" />
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_posts.xml" value="0.2265625" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/activity_splash.xml" value="0.17291666666666666" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/native_ad_layout.xml" value="0.21354166666666666" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/native_ad_theme.xml" value="0.21354166666666666" />
+        <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/post_item_layout.xml" value="0.21041666666666667" />
         <entry key="..\:/Client Work/TestApplication/app/src/main/res/layout/themes_adapter.xml" value="0.21354166666666666" />
       </map>
     </option>

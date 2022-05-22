@@ -8,10 +8,12 @@ import com.example.testapplication.R
 import com.example.testapplication.adapter.ImageAdapter
 import com.example.testapplication.databinding.ActivityMainBinding
 import com.example.testapplication.model.ImageModel
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private var binding: ActivityMainBinding? = null
